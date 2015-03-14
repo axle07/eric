@@ -1,0 +1,88 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+body {
+	background: url("../images/7.jpg") center top fixed no-repeat;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px !important;
+	font-weight: 300;
+}
+blockquote {
+	font-style: italic;
+}
+blockquote p {
+	/* margin: auto 24px; */
+	font-size: 21px;
+}
+#logo {
+	height: 75px;
+	width: 75px;
+}
+.hero{
+width: 100%
+text-align: center;
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%)
+}
+.hero header {
+  margin: auto;
+  max-width: 827px
+}
+.hero h1, h2 {
+  margin: auto;
+	margin-bottom: 36px;
+}
+.hero h1 {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+.hero p {
+  text-align: center;
+  margin-top: 48px;
+}
+.img-polaroid {
+	padding: 4px;
+	border: 1px solid lightGray;
+}
+.green {
+	background-color: #A8B816;
+}
+.periwinkle {
+	background-color: #6F8EED;
+}
+.smaller {
+	font-size: 18px
+}
+
+/* edits to original css */
+h1 span, h2 span, h3 span, h4 span {
+	color: #EBCB33;
+}
+.bg-image-1 {
+	background: url("../images/4.jpg") center center fixed  no-repeat;
+}
+.bg-image-2 {
+	background: url("../images/7.jpg") top center fixed  no-repeat;
+}
+.bg-image-3 {
+	background: url("../images/35.jpg") top center fixed  no-repeat;
+}
+.fixed-header-on .navbar-default .navbar-nav > li > a {
+	padding-top: 28px;
+}
+.navbar-toggle {
+	margin-top: 21px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #000000;
+}
