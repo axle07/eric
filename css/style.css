@@ -64,10 +64,10 @@ h4 span {
 	color: #339BEB;
 }
 .text-colored {
-	color: #EBCB33;
+	color: #21bc23;
 }
 a {
-	color: #EBCB33;
+	color: #21bc23;
 }
 a:hover {
 	color: #339BEB;
@@ -169,7 +169,7 @@ blockquote {
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #EBCB33;
+	background-color: #21bc23;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -311,7 +311,7 @@ blockquote {
 	transition: all 0.2s ease-in-out;
 }
 .btn-default {
-	color: #EBCB33;
+	color: #21bc23;
 	border: 1px solid #cccccc;
 }
 .btn-default:hover {
@@ -348,7 +348,7 @@ blockquote {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #EBCB33;
+	background-color: #21bc23;
 	color: #ffffff;
 	position: relative;
 	text-decoration: none;
@@ -373,7 +373,7 @@ blockquote {
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #EBCB33;
+	background-color: #21bc23;
 	color: #ffffff;
 }
 .panel-title a i {
@@ -387,8 +387,8 @@ blockquote {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-	background-color: #EBCB33;
-	border-color: #EBCB33;
+	background-color: #21bc23;
+	border-color: #21bc23;
 	color: #ffffff;
 }
 .nav-pills > li > a {
@@ -427,7 +427,7 @@ textarea {
 	border-radius: 0px;
 }
 .modal-header {
-	background-color: #EBCB33;
+	background-color: #21bc23;
 	color: #ffffff;
 }
 .modal-header h4 {
@@ -476,11 +476,11 @@ textarea {
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
 	background-color: transparent;
-	color: #EBCB33;
+	color: #21bc23;
 }
 .main-navigation .navbar-default .navbar-nav > li > a:hover,
 .main-navigation .navbar-default .navbar-nav > li.active > a:hover {
-	color: #EBCB33;
+	color: #21bc23;
 }
 @media (min-width:768px) {
 	.main-navigation .navbar-default .navbar-nav > li > a {
@@ -598,7 +598,7 @@ textarea {
 	transition: all 0.2s ease-in-out;
 }
 .social-links li.twitter a:hover {
-	color: #EBCB33;
+	color: #21bc23;
 }
 .social-links li.skype a:hover {
 	color: #00aff0;
@@ -715,4 +715,7 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+ul#contact li {
+    font-size: 28px;
 }
