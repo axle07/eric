@@ -10,6 +10,7 @@ File Description: Place here your custom CSS styles
 
 body {
 	background: url("../images/7.jpg") center top fixed no-repeat;
+    background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 24px !important;
 	font-weight: 300;
